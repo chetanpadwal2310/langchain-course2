@@ -346,6 +346,7 @@ dependencies = [
     { name = "black" },
     { name = "isort" },
     { name = "langchain" },
+    { name = "langchain-core" },
     { name = "langchain-ollama" },
     { name = "python-dotenv" },
 ]
@@ -355,6 +356,7 @@ requires-dist = [
     { name = "black", specifier = ">=26.10.1" },
     { name = "isort", specifier = ">=9.0.2" },
     { name = "langchain", specifier = ">=1.4.9" },
+    { name = "langchain-core", specifier = ">=1.7.7" },
     { name = "langchain-ollama", specifier = ">=1.1.0" },
     { name = "python-dotenv", specifier = ">=1.2.4" },
 ]
